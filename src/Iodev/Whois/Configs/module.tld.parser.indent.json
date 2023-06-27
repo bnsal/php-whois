@@ -32,6 +32,8 @@
   "creationDateKeys": [
     "~^(domain\\s+)?(creation|registration)\\s*date$~ui",
     "~^domain\\s+(created|registered)$~ui",
+    "~^domain\\s+(record|registered)\\s*activated$~ui",
+    "~^domain\\s+(record|registered)\\s+activated$~ui",
     "~^(record\\s+)?created|registered(\\s+(on|date))?$~ui",
     "~^registration|activation(\\s+time)?$~ui",
     "~^(Fecha\\s+de\\s+registro|Relevant\\s+dates)$~ui"
